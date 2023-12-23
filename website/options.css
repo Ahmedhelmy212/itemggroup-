@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Set background color of the page */
+body {
+    background-color: #038C65; /* Desired color */
+    margin: 0; /* Reset default margin */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Center the container both horizontally and vertically */
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for button container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Display buttons in a row */
+    margin-top: 20px;
+  }
+  
+  /* Style for both buttons */
+  .btnLogin-popup2,
+  .btnLogin-popup3 {
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    padding: 15px 30px; /* Increase padding for bigger buttons */
+    margin: 10px; /* Increase margin for better spacing */
+    border: none;
+    cursor: pointer;
+    font-size: 18px; /* Increase font size */
+  }
+  
